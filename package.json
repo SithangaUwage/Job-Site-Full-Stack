@@ -1,0 +1,24 @@
+{
+  "name": "Job-Site-Full-Stack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SithangaUwage/Job-Site-Full-Stack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SithangaUwage/Job-Site-Full-Stack/issues"
+  },
+  "homepage": "https://github.com/SithangaUwage/Job-Site-Full-Stack#readme",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "node-fetch": "^2.6.1"
+  }
+}
