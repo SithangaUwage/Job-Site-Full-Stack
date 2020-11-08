@@ -36,15 +36,15 @@ export default function Jobs({jobs}) {
     setActiveStep((prevActiveStep) => prevActiveStep - 1);
   };
 
-  console.log('jobs is', jobs[0]);
+  console.log('jobs is', jobs[3]);
 
   return (
     <div className="jobs">
       <JobModal open={open} job={selectedJob} handleClose={handleClose} />
       <Typography variant="h4" component="h1">
-        Entry Level Software Jobs
+        <div id="pageTitle"> Entry - Junior Level Software Jobs </div>
       </Typography>
-      <Typography variant="h6" component="h1">
+      <Typography variant="h6" component="h1" align="right">
         Found {numJobs} Jobs
       </Typography>
       {

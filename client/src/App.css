@@ -32,21 +32,40 @@ body {
   margin: 20px 40px;
 }
 
+#pageTitle {
+  font-weight: bold;
+}
+
+#companyLogo {
+  height: auto; 
+  width: auto; 
+  max-width: 100px; 
+  max-height: 40px;
+}
+
+#companyNameModal {
+  text-align: right;
+}
+
+#modalTitle {
+  font-weight: bold;
+}
+
 .job {
   width: 80%;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  margin: 10px 0;
-  padding: 20px 10px;
+  margin: auto auto;
+  padding: 40px 10px;
 }
 .job:hover {
   cursor: pointer;
-  color: #666666;
+  color: blue;
 }
 
 .detail-logo {
-  height: 30px;
+  max-width: 100px; 
+  max-height: 50px;
   float: right;
 }
 
