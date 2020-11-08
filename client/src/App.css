@@ -40,6 +40,10 @@ body {
   margin: 10px 0;
   padding: 20px 10px;
 }
+.job:hover {
+  cursor: pointer;
+  color: #666666;
+}
 
 @keyframes App-logo-spin {
   from {
